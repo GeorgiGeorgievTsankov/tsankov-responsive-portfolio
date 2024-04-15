@@ -105,7 +105,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-    max-width: 1024px;
+    max-width: 1224px;
     display: grid;
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
@@ -242,7 +242,7 @@ img {
 }
 
 .home__blob-img {
-    width: 460px;
+    width: 520px;
 }
 
 /*BUTTONS*/
@@ -326,19 +326,19 @@ img {
 }
 
 .skills__html {
-    width: 95%;
+    width: 85%;
 }
 
 .skills__css {
-    width: 85%;
-}
-
-.skills__js {
     width: 65%;
 }
 
-.skills__ux {
-    width: 85%;
+.skills__js {
+    width: 50%;
+}
+
+.skills__react {
+    width: 20%;
 }
 
 .skills__img {
