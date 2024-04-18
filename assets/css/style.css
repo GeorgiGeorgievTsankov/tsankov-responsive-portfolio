@@ -1,5 +1,7 @@
+
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -41,6 +43,10 @@
 ::before,
 ::after {
     box-sizing: border-box;
+}
+
+::placeholder{
+    color: #fff;
 }
 
 html {
@@ -242,7 +248,7 @@ img {
 .home__social {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .home__social-icon {
@@ -262,7 +268,7 @@ img {
     bottom: 0;
     width: 260px;
     display: flex;
-   
+
 }
 
 .home__blob {
@@ -393,6 +399,20 @@ img {
 }
 
 /* ===== CONTACT =====*/
+
+.contact {
+    width: 100%;
+    background-image: url(../img/contact-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contacts-tittle{
+    color: white;
+}
+
+
 .contact__input {
     width: 100%;
     font-size: var(--normal-font-size);
@@ -402,6 +422,9 @@ img {
     border: 1.5px solid var(--second-color);
     outline: none;
     margin-bottom: var(--mb-4);
+    background-color:rgba(177, 176, 189, 0.282);
+    color: #fff;
+    
 }
 
 .contact__button {
@@ -412,6 +435,7 @@ img {
     cursor: pointer;
     margin-left: auto;
 }
+
 
 /* ===== FOOTER =====*/
 .footer {
@@ -451,8 +475,8 @@ img {
         width: 200px;
     }
 
-    
- 
+
+
 }
 
 @media screen and (min-width: 576px) {
@@ -497,7 +521,7 @@ img {
     }
 
     .contact__form {
-        width: 360px;
+        width: 460px;
         padding-top: 2rem;
     }
 
@@ -576,7 +600,7 @@ img {
         column-gap: 2rem;
     }
 
-   
+
 }
 
 @media screen and (min-width: 992px) {
@@ -593,5 +617,5 @@ img {
         width: 520px;
     }
 
-   
+
 }
