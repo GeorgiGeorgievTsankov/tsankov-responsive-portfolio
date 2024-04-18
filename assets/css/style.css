@@ -82,6 +82,20 @@ img {
     display: block;
 }
 
+/*===== CV BOX CSS ===== */
+#cv{
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+
+#cv:hover {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 25);
+}
+
 /*===== CLASS CSS ===== */
 .section-title {
     position: relative;
