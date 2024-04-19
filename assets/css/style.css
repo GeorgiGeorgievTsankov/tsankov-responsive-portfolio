@@ -82,6 +82,13 @@ img {
     display: block;
 }
 
+.padding-top-bottom{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px;
+}
+
+
 /*===== CV BOX CSS ===== */
 #cv{
     background-color: var(--first-color);
@@ -89,12 +96,6 @@ img {
     padding: 0.75rem 2.5rem;
     border-radius: 0.5rem;
     transition: 0.3s;
-}
-
-.padding-top-bottom{
-    /* padding-top: 10px;
-    padding-bottom: 10px; */
-    padding: 10px;
 }
 
 #cv :hover {
